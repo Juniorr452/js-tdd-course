@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "Biblioteca do curso JS com TDD na prática",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juniorr452/js-tdd-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "lib"
+  ],
+  "author": "Juniorr452 <http://github.com/juniorr452>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juniorr452/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/Juniorr452/js-tdd-course#readme"
+}
