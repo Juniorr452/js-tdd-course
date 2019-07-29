@@ -1,0 +1,34 @@
+{
+  "name": "05-unindo-conceitos-na-pratica",
+  "version": "1.0.0",
+  "description": "Começando com testes",
+  "main": "index.js",
+  "scripts": {
+    "prepush": "npm run lint",
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juniorr452/js-tdd-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "lib"
+  ],
+  "author": "Juniorr452 <http://github.com/juniorr452>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juniorr452/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/Juniorr452/js-tdd-course#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.0.1",
+    "mocha": "^6.2.0"
+  }
+}
